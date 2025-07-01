@@ -22,5 +22,6 @@ type: page
 - [Google data search](https://datasetsearch.research.google.com)
 - [My SJTU](https://my.sjtu.edu.cn)
 - [SJTU supercomputer](https://studio.hpc.sjtu.edu.cn/pun/sys/dashboard/batch_connect/sessions)
-- [SJTU supercomputer manual](https://docs.hpc.sjtu.edu.cn)
+- [SJTU HPC manual mirror](https://sjtuhpc.netlify.app)
+- [SJTU HPC manual](https://docs.hpc.sjtu.edu.cn)
 - [SJTU mail](https://mail.sjtu.edu.cn)
