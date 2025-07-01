@@ -1,0 +1,19 @@
+{{- if and .Date (not .Params.hide_date) -}}
+  <div class="article-metadata">
+    <span>
+      {{ .Date.Format "Jan 2, 2006" }}
+    </span>
+
+    {{ with .Params.authors }}
+    <span> · {{ delimit . ", " }}</span>
+    {{ end }}
+
+    {{ if .Params.categories }}
+    <span> · {{ delimit .Params.categories ", " }}</span>
+    {{ end }}
+
+    {{ if .GitInfo }}
+      {{/* Don't show "Last updated" */}}
+    {{ end }}
+  </div>
+{{- end -}}

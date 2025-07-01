@@ -1,0 +1,14 @@
+<!-- Footer removed -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPath = window.location.pathname.replace(/\/$/, ""); // remove trailing slash
+    const menuLinks = document.querySelectorAll(".navbar a");
+
+    menuLinks.forEach(link => {
+      const linkPath = link.getAttribute("href").replace(/\/$/, "");
+      if (linkPath === currentPath) {
+        link.classList.add("active-link");
+      }
+    });
+  });
+</script>

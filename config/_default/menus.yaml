@@ -1,27 +1,31 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
-
 main:
-  - name: Bio
-    url: /
+  - name: Researchers
+    url: /researchers/
+    weight: 1
+  - name: Reading
+    url: /reading/
+    weight: 2
+  - name: Data
+    url: /data/
+    weight: 3
+  - name: Codes
+    url: /codes/
+    weight: 4
+  - name: Conferences
+    url: /conferences/
+    weight: 5
+  - name: Books
+    url: /books/
+    weight: 6
+  - name: Jobs
+    url: /jobs/
+    wegiht: 7
+  - name: Utilities
+    url: /utilities/
+    weight: 8
+  - name: Galleries
+    url: /galleries/
+    weight: 9
+  - name: CLI
+    url: /cli/
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
-  - name: Experience
-    url: experience/
-    weight: 20
-  - name: Projects
-    url: projects/
-    weight: 30
-  - name: Teaching
-    url: teaching/
-    weight: 40
