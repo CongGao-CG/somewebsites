@@ -2,7 +2,7 @@
 layout: page
 type: page
 ---
-
+- [PU AI tools](https://oit.princeton.edu/generative-ai/ai-tools)
 - [MyDella](https://mydella.princeton.edu/pun/sys/dashboard)
 - [MyAdroit](https://myadroit.princeton.edu/pun/sys/dashboard)
 - [PU Links](https://inside.princeton.edu/university-links)
