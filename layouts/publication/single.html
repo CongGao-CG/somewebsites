@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <main id="main" class="page-main">
+    <div class="page-body my-10">
+      <div class="max-w-screen-xl mx-auto flex flex-col lg:flex-row justify-center">
+        <article class="w-full prose prose-slate dark:prose-invert">
+          <header>
+            <h1>{{ .Title }}</h1>
+            <p>
+              {{ delimit .Params.authors ", " }}
+            </p>
+            <p>
+              {{ .Params.journal }} {{ .Date.Year }}
+            </p>
+            <div class="mt-2 flex gap-4">
+              {{ if .Params.url_pdf }}
+                <a href="{{ .Params.url_pdf }}" target="_blank" rel="noopener" class="inline-flex items-center px-2 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded">
+                  📄 PDF
+                </a>
+              {{ end }}
+              {{ if .Params.doi }}
+                <a href="{{ .Params.doi }}" target="_blank" rel="noopener" class="inline-flex items-center px-2 py-1 bg-yellow-100 text-yellow-800 text-sm font-medium rounded">
+                  🔗 DOI
+                </a>
+              {{ end }}
+            </div>
+          </header>
+
+          {{ .Content }}
+        </article>
+      </div>
+    </div>
+  </main>
+{{ end }}

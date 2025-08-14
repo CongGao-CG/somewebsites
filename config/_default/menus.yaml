@@ -1,0 +1,34 @@
+main:
+  - name: Researchers
+    url: /researchers/
+    weight: 1
+  - name: Reading
+    url: /reading/
+    weight: 2
+  - name: Projects
+    url: /projects/
+    weight: 3
+  - name: Data
+    url: /data/
+    weight: 4
+  - name: Codes
+    url: /codes/
+    weight: 5
+  - name: Conferences
+    url: /conferences/
+    weight: 6
+  - name: Books
+    url: /books/
+    weight: 7
+  - name: Jobs
+    url: /jobs/
+    wegiht: 8
+  - name: Utilities
+    url: /utilities/
+    weight: 9
+  - name: Galleries
+    url: /galleries/
+    weight: 10
+  - name: CLI
+    url: /cli/
+    weight: 11

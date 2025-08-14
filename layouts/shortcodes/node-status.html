@@ -1,0 +1,242 @@
+<!-- Simple Inline Link Status Checker for Hugo -->
+<!-- Save this as: layouts/shortcodes/node-status.html -->
+
+<style>
+    .link-status {
+        display: inline-block;
+        margin-left: 8px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        vertical-align: middle;
+    }
+    
+    .status-checking {
+        background: #f0f0f0;
+        color: #666;
+    }
+    
+    .status-online {
+        background: #d4f4dd;
+        color: #1a7f37;
+    }
+    
+    .status-offline {
+        background: #ffd6cc;
+        color: #d1242f;
+    }
+    
+    .status-error {
+        background: #fff3cd;
+        color: #856404;
+    }
+    
+    .link-status-summary {
+        margin: 20px 0;
+        padding: 10px;
+        background: #f6f8fa;
+        border-radius: 6px;
+        font-size: 14px;
+        color: #586069;
+    }
+</style>
+
+<div class="link-status-summary" id="status-summary">
+    Checking link availability...
+</div>
+
+<!-- Hidden marker to identify where the shortcode is placed -->
+<div id="link-checker-marker" style="display: none;"></div>
+
+<script>
+(function() {
+    let totalLinks = 0;
+    let checkedLinks = 0;
+    let onlineCount = 0;
+    let offlineCount = 0;
+
+    // Function to add status indicators to links
+    function addStatusToLinks() {
+        // Find the marker element
+        const marker = document.getElementById('link-checker-marker');
+        if (!marker) {
+            updateSummary('Error: Could not find marker element');
+            return;
+        }
+
+        // Find the content container (article, main, or content div)
+        let contentContainer = marker.closest('article') || 
+                              marker.closest('main') || 
+                              marker.closest('.content') ||
+                              marker.closest('[role="main"]');
+        
+        // If no content container found, use parent element
+        if (!contentContainer) {
+            contentContainer = marker.parentElement;
+        }
+
+        // Get all elements after the marker within the content container
+        const allElements = Array.from(contentContainer.querySelectorAll('*'));
+        const markerIndex = allElements.indexOf(marker);
+        
+        // Only process elements that come after the marker
+        const elementsAfterMarker = allElements.slice(markerIndex + 1);
+        
+        const externalLinks = [];
+        const processedUrls = new Set(); // Track URLs we've already processed
+        
+        elementsAfterMarker.forEach(element => {
+            // Check if this element is a link
+            if (element.tagName === 'A' && element.href) {
+                const url = element.href;
+                
+                // Only check external HTTP/HTTPS links
+                if ((url.startsWith('http://') || url.startsWith('https://')) && !processedUrls.has(url)) {
+                    // Skip if already has a status indicator
+                    if (element.querySelector('.link-status') || element.nextElementSibling?.classList?.contains('link-status')) {
+                        return;
+                    }
+                    
+                    processedUrls.add(url);
+                    
+                    // Add status indicator
+                    const statusSpan = document.createElement('span');
+                    statusSpan.className = 'link-status status-checking';
+                    statusSpan.textContent = 'checking';
+                    statusSpan.id = 'status-' + totalLinks;
+                    
+                    // Insert after the link
+                    element.parentNode.insertBefore(statusSpan, element.nextSibling);
+                    
+                    externalLinks.push({
+                        url: url,
+                        statusElement: statusSpan,
+                        index: totalLinks
+                    });
+                    
+                    totalLinks++;
+                }
+            }
+        });
+        
+        // Check each link once
+        if (externalLinks.length > 0) {
+            updateSummary(`Checking ${externalLinks.length} links...`);
+            checkAllLinksOnce(externalLinks);
+        } else {
+            updateSummary('No external links found after this point.');
+        }
+    }
+
+    // Check all links once
+    async function checkAllLinksOnce(links) {
+        // Check links sequentially to avoid overwhelming the browser
+        for (const linkInfo of links) {
+            await checkSingleLink(linkInfo);
+        }
+        
+        // Update final summary
+        updateSummary(`Checked ${totalLinks} links: ${onlineCount} available, ${offlineCount} unavailable`);
+    }
+
+    // Check a single link
+    async function checkSingleLink(linkInfo) {
+        const { url, statusElement } = linkInfo;
+        
+        try {
+            // Try to check the link
+            const isAvailable = await checkLinkAvailability(url);
+            
+            if (isAvailable) {
+                statusElement.className = 'link-status status-online';
+                statusElement.textContent = '✓ available';
+                onlineCount++;
+            } else {
+                statusElement.className = 'link-status status-offline';
+                statusElement.textContent = '✗ unavailable';
+                offlineCount++;
+            }
+        } catch (error) {
+            statusElement.className = 'link-status status-error';
+            statusElement.textContent = '? error';
+            offlineCount++;
+        }
+        
+        checkedLinks++;
+        if (checkedLinks < totalLinks) {
+            updateSummary(`Checking links... (${checkedLinks}/${totalLinks})`);
+        }
+    }
+
+    // Check link availability
+    async function checkLinkAvailability(url) {
+        // Try fetch with no-cors (won't give us the actual status but won't throw CORS errors)
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 5000);
+            
+            await fetch(url, {
+                method: 'HEAD',
+                mode: 'no-cors',
+                signal: controller.signal,
+                cache: 'no-cache'
+            });
+            
+            clearTimeout(timeoutId);
+            // With no-cors, we can't read the response, but no error means it's probably reachable
+            return true;
+        } catch (error) {
+            // If fetch fails, try with an image tag for image URLs
+            if (url.match(/\.(jpg|jpeg|png|gif|svg|ico)$/i)) {
+                return await checkWithImage(url);
+            }
+            return false;
+        }
+    }
+
+    // Check using image loading (for image URLs)
+    function checkWithImage(url) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            const timeout = setTimeout(() => {
+                img.src = '';
+                resolve(false);
+            }, 5000);
+            
+            img.onload = () => {
+                clearTimeout(timeout);
+                resolve(true);
+            };
+            
+            img.onerror = () => {
+                clearTimeout(timeout);
+                resolve(false);
+            };
+            
+            // Add timestamp to prevent caching
+            const separator = url.includes('?') ? '&' : '?';
+            img.src = url + separator + 't=' + new Date().getTime();
+        });
+    }
+
+    // Update summary text
+    function updateSummary(text) {
+        const summary = document.getElementById('status-summary');
+        if (summary) {
+            summary.textContent = text;
+        }
+    }
+
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(addStatusToLinks, 100);
+        });
+    } else {
+        // DOM is already loaded
+        setTimeout(addStatusToLinks, 100);
+    }
+})();
+</script>

@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <main class="page-main py-10">
+    <div class="page-body max-w-screen-md mx-auto">
+      {{ range .Pages.ByDate.Reverse }}
+        <div class="mb-10">
+          <h2 class="text-xl font-semibold">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+
+          {{ with .Params.authors }}
+            <div class="text-gray-600 text-sm mt-1">
+              {{ delimit . ", " }}
+            </div>
+          {{ end }}
+
+          {{ if .Params.journal }}
+            <div class="text-gray-500 text-sm mt-1">
+              {{ .Params.journal }} {{ .Date.Year }}
+            </div>
+          {{ end }}
+
+          <div class="mt-2 text-sm flex gap-4">
+            {{ with .Params.url_pdf }}
+              <a href="{{ . }}" target="_blank" rel="noopener" class="text-blue-600 hover:underline">PDF</a>
+            {{ end }}
+
+            {{ with .Params.doi }}
+              <a href="{{ . }}" target="_blank" rel="noopener" class="text-blue-600 hover:underline">DOI</a>
+            {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </main>
+{{ end }}
