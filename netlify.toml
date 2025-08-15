@@ -1,7 +1,6 @@
 [build]
   command = "hugo --gc --minify -b $URL && npx pagefind --site 'public'"
   publish = "public"
-  image = "jammy"
 
 [build.environment]
   HUGO_VERSION = "0.136.5"
