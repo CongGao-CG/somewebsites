@@ -3,9 +3,9 @@ layout: page
 type: page
 ---
 
-- [Reading Weather and Climate blog](https://blogs.reading.ac.uk/weather-and-climate-at-reading)
 - [Nature 8 Journals and 5 Subject](https://www.nature.com/search?journal=ncomms%2C+nclimate%2C+nature%2C+ngeo%2C+natrevearthenviron&article_type=research%2C+comments-and-opinion%2C+reviews&subject=climate-sciences%2C+environmental-sciences%2C+hydrology%2C+natural-hazards%2C+ocean-sciences&order=date_desc)
 - [Science Advances](https://advances.sciencemag.org/content/by/year/2025)
+- [Reading Weather and Climate blog](https://blogs.reading.ac.uk/weather-and-climate-at-reading)
 - [AI/ML at a glance](https://aiml.com)
 - [Washingtonpost](https://www.washingtonpost.com/climate-environment)
 - [NYtimes](https://www.nytimes.com/section/climate)
