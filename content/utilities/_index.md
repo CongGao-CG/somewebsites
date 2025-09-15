@@ -2,7 +2,6 @@
 layout: page
 type: page
 ---
-- [PU AI tools](https://oit.princeton.edu/generative-ai/ai-tools)
 - [MyDella](https://mydella.princeton.edu/pun/sys/dashboard)
 - [MyAdroit](https://myadroit.princeton.edu/pun/sys/dashboard)
 - [PU Links](https://inside.princeton.edu/university-links)
@@ -26,4 +25,4 @@ type: page
 - [SJTU mail](https://mail.sjtu.edu.cn)
 - [Google advanced search](https://www.google.com/advanced_search)
 - [Google data search](https://datasetsearch.research.google.com)
-
+- [PU AI tools](https://oit.princeton.edu/generative-ai/ai-tools)
