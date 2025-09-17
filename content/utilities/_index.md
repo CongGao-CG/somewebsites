@@ -18,6 +18,7 @@ type: page
 - [Web of Science](https://www.webofscience.com/wos/alldb/basic-search)
 - [Dissertations & Theses](https://www.proquest.com/pqdtglobal)
 - [My SJTU](https://my.sjtu.edu.cn)
+- [SJTU HPC status](https://status.hpc.sjtu.edu.cn)
 - [SJTU HPC studio](https://studio.hpc.sjtu.edu.cn)
 - [SJTU HPC management](https://my.hpc.sjtu.edu.cn)
 - [SJTU HPC manual mirror](https://sjtuhpc.netlify.app)
