@@ -2,6 +2,7 @@
 layout: page
 type: page
 ---
+- [PU network check](https://tigerspeed.princeton.edu)
 - [MyDella](https://mydella.princeton.edu/pun/sys/dashboard)
 - [MyAdroit](https://myadroit.princeton.edu/pun/sys/dashboard)
 - [PU Links](https://inside.princeton.edu/university-links)
