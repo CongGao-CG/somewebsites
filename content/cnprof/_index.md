@@ -21,11 +21,11 @@ type: page
 - Fei‑Fei Jin @ University of Hawaiʻi <sub>[homepage](https://www.soest.hawaii.edu/met/Faculty/jff)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=FCRZr0kAAAAJ)</sub>
 - Shang‑Ping Xie @ University of California, San Diego <sub>[homepage](https://sxie.scrippsprofiles.ucsd.edu)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=vGEx6O0AAAAJ)</sub>
 - Qiang Fu @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/qiang-fu)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=PF9lCrkAAAAJ)</sub>
-- Lian Xie @ North Carolina State University <sub>[homepage](https://meas.sciences.ncsu.edu/people/lian_xie)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=S6O0RX8AAAAJ)</sub>
-- Tim Li @ University of Hawaiʻi <sub>[homepage](https://www2.hawaii.edu/~timli)</sub> <sub>google scholar</sub>
+- Lian Xie @ North Carolina State University <sub>[homepage](https://meas.sciences.ncsu.edu/people/xie)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=S6O0RX8AAAAJ)</sub>
+- Tim Li @ University of Hawaiʻi <sub>[homepage](https://iprc.soest.hawaii.edu/users/li)</sub> <sub>google scholar</sub>
 - Zhengyu Liu @ Ohio State University <sub>[homepage](https://geography.osu.edu/people/liu.7022)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=B_OGuv0AAAAJ)</sub>
-- Ping Chang @ Texas A&M University <sub>[homepage](https://ocean.tamu.edu/people/profiles/faculty/changping.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=cIw1NiUAAAAJ)</sub>
+- Ping Chang @ Texas A&M University <sub>[homepage](http://ocean.tamu.edu/profile/PChang)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=cIw1NiUAAAAJ)</sub>
 - Zhiming Kuang @ Harvard University <sub>[homepage](https://eps.harvard.edu/people/zhiming-kuang)</sub> <sub>google scholar)</sub>
-- Bo Qiu @ University of Hawaiʻi <sub>[homepage](https://www.soest.hawaii.edu/oceanography/faculty/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=SmNjHLoAAAAJ)</sub>
-- Yi Deng @ Georgia Tech <sub>[homepage](https://eas.gatech.edu/people/dr-yi-deng)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=Ff6qeesAAAAJ)</sub>
-- Weiqing Han @ University of Colorado <sub>[homepage](https://instaar.colorado.edu/people/weiqing-han)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=2ACehwUAAAAJ)</sub>
+- Bo Qiu @ University of Hawaiʻi <sub>[homepage](http://www.soest.hawaii.edu/oceanography/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=SmNjHLoAAAAJ)</sub>
+- Yi Deng @ Georgia Tech <sub>[homepage](https://eas.gatech.edu/people/deng-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=Ff6qeesAAAAJ)</sub>
+- Weiqing Han @ University of Colorado <sub>[homepage](https://atoc.colorado.edu/~whan)</sub> <sub>[google scholar](https://scholar.google.com/citations?hl=en&user=2ACehwUAAAAJ)</sub>
