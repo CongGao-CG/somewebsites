@@ -5,30 +5,33 @@ main:
   - name: Reading
     url: /reading/
     weight: 2
+  - name: Prof (CN)
+    url: /cnprof/
+    weight: 3
   - name: Projects
     url: /projects/
-    weight: 3
+    weight: 4
   - name: Data
     url: /data/
-    weight: 4
+    weight: 5
   - name: Codes
     url: /codes/
-    weight: 5
+    weight: 6
   - name: Conferences
     url: /conferences/
-    weight: 6
+    weight: 7
   - name: Books
     url: /books/
-    weight: 7
+    weight: 8
   - name: Jobs
     url: /jobs/
-    wegiht: 8
+    wegiht: 9
   - name: Utilities
     url: /utilities/
-    weight: 9
+    weight: 10
   - name: Galleries
     url: /galleries/
-    weight: 10
+    weight: 11
   - name: CLI
     url: /cli/
-    weight: 11
+    weight: 12
