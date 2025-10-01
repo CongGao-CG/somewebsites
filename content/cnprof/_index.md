@@ -3,29 +3,29 @@ layout: page
 type: page
 ---
 
-- Shuyi (Suzy) Chen @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/shuyi-chen)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LW9-XEYAAAAJJ&hl=en)</sub>
-- Sen Chiao @ Howard University <sub>[homepage](https://profiles.howard.edu/sen-chiao)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LiDrBWwAAAAJJ&hl=en)</sub>
-- Xiaohong Liu @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/atmos-science/contact/profiles/xiaohong-liu.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OrDCS68AAAAJJ&hl=en)</sub>
-- Aiguo Dai @ University at Albany <sub>[homepage](https://www.albany.edu/daes/faculty/aiguo-dai)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=qYIJJ1AAAAAJJ&hl=en)</sub>
-- Zhanqing Li @ University of Maryland <sub>[homepage](https://www2.atmos.umd.edu/~zli)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=td1Yf-4AAAAJJ&hl=en)</sub>
-- Mingfang Ting @ Columbia University <sub>[homepage](https://lamont.columbia.edu/directory/mingfang-ting)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=VPhpWq0AAAAJJ&hl=en)</sub>
-- Xubin Zeng @ University of Arizona <sub>[homepage](https://sites.google.com/view/xubinzeng)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=1NZy-WwAAAAJJ&hl=en)</sub>
-- Minghua Zhang @ Stony Brook University <sub>[homepage](https://www.stonybrook.edu/commcms/somas/people/_profiles/minghua-zhang.php)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OPMH57gAAAAJJ&hl=en)</sub>
-- Guo‑Yue Niu @ University of Arizona <sub>[homepage](https://has.arizona.edu/person/guo-yue-niu)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Vxr_xRwAAAAJJ&hl=en)</sub>
-- Xiangdong Zhang @ University of Alaska <sub>[homepage](https://www.uaf.edu/atmos/faculty/zhang_xiangdong.php)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=0LolwH8AAAAJJ&hl=en)</sub>
-- Zhuo Wang @ University of Illinois <sub>[homepage](https://climas.illinois.edu/directory/profile/zhuowang)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Wn9LYk4AAAAJJ&hl=en)</sub>
-- Chuixiang Yi @ City University of New York <sub>[homepage](https://www.qc.cuny.edu/academics/sees/faculty-research-chuixiang-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=p4L3K7MAAAAJJ&hl=en)</sub>
-- Wenhong Li @ Duke University <sub>[homepage](https://cee.duke.edu/people/wenhong-li)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=u6ZcTa0AAAAJJ&hl=en)</sub>
-- Rong Fu @ UCLA <sub>[homepage](https://jifresse.ucla.edu/profile/rong-fu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=JaOJEp8AAAAJJ&hl=en)</sub>
-- Jin‑Yi Yu @ University of California, Irvine <sub>[homepage](https://www.ess.uci.edu/~yu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=1pber9cAAAAJJ&hl=en)</sub>
-- Fei‑Fei Jin @ University of Hawaiʻi <sub>[homepage](https://www.soest.hawaii.edu/met/Faculty/jff)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=FCRZr0kAAAAJJ&hl=en)</sub>
-- Shang‑Ping Xie @ University of California, San Diego <sub>[homepage](https://sxie.scrippsprofiles.ucsd.edu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=vGEx6O0AAAAJJ&hl=en)</sub>
-- Qiang Fu @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/qiang-fu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=PF9lCrkAAAAJJ&hl=en)</sub>
-- Lian Xie @ North Carolina State University <sub>[homepage](https://meas.sciences.ncsu.edu/people/xie)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=S6O0RX8AAAAJJ&hl=en)</sub>
+- Shuyi (Suzy) Chen @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/shuyi-chen)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LW9-XEYAAAAJ&hl=en)</sub>
+- Sen Chiao @ Howard University <sub>[homepage](https://profiles.howard.edu/sen-chiao)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LiDrBWwAAAAJ&hl=en)</sub>
+- Xiaohong Liu @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/atmos-science/contact/profiles/xiaohong-liu.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OrDCS68AAAAJ&hl=en)</sub>
+- Aiguo Dai @ University at Albany <sub>[homepage](https://www.albany.edu/daes/faculty/aiguo-dai)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=qYIJJ1AAAAAJ&hl=en)</sub>
+- Zhanqing Li @ University of Maryland <sub>[homepage](https://www2.atmos.umd.edu/~zli)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=td1Yf-4AAAAJ&hl=en)</sub>
+- Mingfang Ting @ Columbia University <sub>[homepage](https://lamont.columbia.edu/directory/mingfang-ting)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=VPhpWq0AAAAJ&hl=en)</sub>
+- Xubin Zeng @ University of Arizona <sub>[homepage](https://sites.google.com/view/xubinzeng)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=1NZy-WwAAAAJ&hl=en)</sub>
+- Minghua Zhang @ Stony Brook University <sub>[homepage](https://www.stonybrook.edu/commcms/somas/people/_profiles/minghua-zhang.php)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OPMH57gAAAAJ&hl=en)</sub>
+- Guo‑Yue Niu @ University of Arizona <sub>[homepage](https://has.arizona.edu/person/guo-yue-niu)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Vxr_xRwAAAAJ&hl=en)</sub>
+- Xiangdong Zhang @ University of Alaska <sub>[homepage](https://www.uaf.edu/atmos/faculty/zhang_xiangdong.php)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=0LolwH8AAAAJ&hl=en)</sub>
+- Zhuo Wang @ University of Illinois <sub>[homepage](https://climas.illinois.edu/directory/profile/zhuowang)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Wn9LYk4AAAAJ&hl=en)</sub>
+- Chuixiang Yi @ City University of New York <sub>[homepage](https://www.qc.cuny.edu/academics/sees/faculty-research-chuixiang-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=p4L3K7MAAAAJ&hl=en)</sub>
+- Wenhong Li @ Duke University <sub>[homepage](https://cee.duke.edu/people/wenhong-li)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=u6ZcTa0AAAAJ&hl=en)</sub>
+- Rong Fu @ UCLA <sub>[homepage](https://jifresse.ucla.edu/profile/rong-fu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=JaOJEp8AAAAJ&hl=en)</sub>
+- Jin‑Yi Yu @ University of California, Irvine <sub>[homepage](https://www.ess.uci.edu/~yu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=1pber9cAAAAJ&hl=en)</sub>
+- Fei‑Fei Jin @ University of Hawaiʻi <sub>[homepage](https://www.soest.hawaii.edu/met/Faculty/jff)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=FCRZr0kAAAAJ&hl=en)</sub>
+- Shang‑Ping Xie @ University of California, San Diego <sub>[homepage](https://sxie.scrippsprofiles.ucsd.edu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=vGEx6O0AAAAJ&hl=en)</sub>
+- Qiang Fu @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/qiang-fu)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=PF9lCrkAAAAJ&hl=en)</sub>
+- Lian Xie @ North Carolina State University <sub>[homepage](https://meas.sciences.ncsu.edu/people/xie)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=S6O0RX8AAAAJ&hl=en)</sub>
 - Tim Li @ University of Hawaiʻi <sub>[homepage](https://iprc.soest.hawaii.edu/users/li)</sub> <sub>google scholar</sub>
-- Zhengyu Liu @ Ohio State University <sub>[homepage](https://geography.osu.edu/people/liu.7022)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=B_OGuv0AAAAJJ&hl=en)</sub>
-- Ping Chang @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/oceanography/contact/profiles/ping-chang.html)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=cIw1NiUAAAAJJ&hl=en)</sub>
+- Zhengyu Liu @ Ohio State University <sub>[homepage](https://geography.osu.edu/people/liu.7022)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=B_OGuv0AAAAJ&hl=en)</sub>
+- Ping Chang @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/oceanography/contact/profiles/ping-chang.html)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=cIw1NiUAAAAJ&hl=en)</sub>
 - Zhiming Kuang @ Harvard University <sub>[homepage](https://eps.harvard.edu/people/zhiming-kuang)</sub> <sub>google scholar)</sub>
-- Bo Qiu @ University of Hawaiʻi <sub>[homepage](http://www.soest.hawaii.edu/oceanography/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=SmNjHLoAAAAJJ&hl=en)</sub>
-- Yi Deng @ Georgia Tech <sub>[homepage](https://eas.gatech.edu/people/deng-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=Ff6qeesAAAAJJ&hl=en)</sub>
-- Weiqing Han @ University of Colorado <sub>[homepage](https://atoc.colorado.edu/~whan)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=2ACehwUAAAAJJ&hl=en)</sub>
+- Bo Qiu @ University of Hawaiʻi <sub>[homepage](http://www.soest.hawaii.edu/oceanography/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=SmNjHLoAAAAJ&hl=en)</sub>
+- Yi Deng @ Georgia Tech <sub>[homepage](https://eas.gatech.edu/people/deng-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=Ff6qeesAAAAJ&hl=en)</sub>
+- Weiqing Han @ University of Colorado <sub>[homepage](https://atoc.colorado.edu/~whan)</sub> <sub>[google scholar](https://scholar.google.com/citations&user=2ACehwUAAAAJ&hl=en)</sub>
