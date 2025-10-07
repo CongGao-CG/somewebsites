@@ -3,6 +3,7 @@ layout: page
 type: page
 ---
 
+- [The Art of HPC](https://theartofhpc.com)
 - [Math by Pauls](https://tutorial.math.lamar.edu)
 - [Math in LibreTexts](https://math.libretexts.org/Bookshelves)
 - [R books](https://bookdown.org)
