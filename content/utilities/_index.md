@@ -12,7 +12,7 @@ type: page
 - [PU service](https://princeton.service-now.com/service)
 - [PU Davis](https://davisic.princeton.edu)
 - [YouEnglish](https://youglish.com)
-- [latex2png](http://latex2png.com)
+- [latex2image](https://latex2image.joeraut.com)
 - [Symbols](https://wumbo.net/symbols)
 - [Matlab drive](https://drive.matlab.com)
 - [AMS glossary](https://glossary.ametsoc.org)
