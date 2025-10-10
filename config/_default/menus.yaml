@@ -29,9 +29,12 @@ main:
   - name: Utilities
     url: /utilities/
     weight: 10
+  - name: Lists
+    url: /lists/
+    weight: 11
   - name: Galleries
     url: /galleries/
-    weight: 11
+    weight: 12
   - name: CLI
     url: /cli/
-    weight: 12
+    weight: 13
