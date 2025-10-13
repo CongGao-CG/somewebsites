@@ -5,6 +5,7 @@ type: page
 
 {{< node-status >}}
 
+- [CMIP6 Source ID](https://cmip6-source-id.netlify.app)
 - [UK CMIP6](https://data.ceda.ac.uk/badc/cmip6/data/CMIP6)
 - [US CMIP6](https://esgf-node.ornl.gov/search)
 - [NOAA List](https://www.noaa.gov/nodd/datasets)
