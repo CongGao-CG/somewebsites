@@ -6,7 +6,7 @@ type: page
 - Shuyi (Suzy) Chen @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/shuyi-chen)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LW9-XEYAAAAJ&hl=en)</sub>
 - Sen Chiao @ Howard University <sub>[homepage](https://profiles.howard.edu/sen-chiao)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LiDrBWwAAAAJ&hl=en)</sub>
 - Xiaohong Liu @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/atmos-science/contact/profiles/xiaohong-liu.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OrDCS68AAAAJ&hl=en)</sub>
-- Aiguo Dai @ University at Albany <sub>[homepage](https://www.albany.edu/daes/faculty/aiguo-dai)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=qYIJJ1AAAAAJ&hl=en)</sub>
+- Aiguo Dai @ University at Albany <sub>[homepage](https://www.albany.edu/daes/faculty/aiguo-dai)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=KGRvXFsAAAAJ&hl=en)</sub>
 - Zhanqing Li @ University of Maryland <sub>[homepage](https://www2.atmos.umd.edu/~zli)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=td1Yf-4AAAAJ&hl=en)</sub>
 - Mingfang Ting @ Columbia University <sub>[homepage](https://lamont.columbia.edu/directory/mingfang-ting)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=VPhpWq0AAAAJ&hl=en)</sub>
 - Xubin Zeng @ University of Arizona <sub>[homepage](https://sites.google.com/view/xubinzeng)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=1NZy-WwAAAAJ&hl=en)</sub>
