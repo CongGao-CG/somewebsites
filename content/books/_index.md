@@ -3,6 +3,7 @@ layout: page
 type: page
 ---
 
+- [Intro to Tropical Meteorology](https://www.chanthaburi.buu.ac.th/~wirote/met/tropical/textbook_2nd_edition)
 - [The Art of HPC](https://theartofhpc.com)
 - [Math by Pauls](https://tutorial.math.lamar.edu)
 - [Math in LibreTexts](https://math.libretexts.org/Bookshelves)
