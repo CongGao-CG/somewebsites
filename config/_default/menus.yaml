@@ -1,40 +1,43 @@
 main:
+  - name: NS
+    url: /ns/
+    weight: 1
   - name: Researchers
     url: /researchers/
-    weight: 1
+    weight: 2
   - name: Reading
     url: /reading/
-    weight: 2
+    weight: 3
   - name: Prof (CN)
     url: /cnprof/
-    weight: 3
+    weight: 4
   - name: Projects
     url: /projects/
-    weight: 4
+    weight: 5
   - name: Data
     url: /data/
-    weight: 5
+    weight: 6
   - name: Codes
     url: /codes/
-    weight: 6
+    weight: 7
   - name: Conferences
     url: /conferences/
-    weight: 7
+    weight: 8
   - name: Books
     url: /books/
-    weight: 8
+    weight: 9
   - name: Jobs
     url: /jobs/
-    weight: 9
+    weight: 10
   - name: Utilities
     url: /utilities/
-    weight: 10
+    weight: 11
   - name: Lists
     url: /lists/
-    weight: 11
+    weight: 12
   - name: Galleries
     url: /galleries/
-    weight: 12
+    weight: 13
   - name: CLI
     url: /cli/
-    weight: 13
+    weight: 14
