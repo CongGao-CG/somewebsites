@@ -12,6 +12,7 @@ type: page
 - [Shang-Ping Xie @ UCSD](http://sxie.ucsd.edu/pub_list.html)
 - [Christina M Patricola @ IASTATE](https://faculty.sites.iastate.edu/cmp28/publications)
 - [Gabriel Vecchi @ Princeton](https://vecchi.princeton.edu/publications)
+- [Claudia Pasquero @ UNIMIB](https://sites.google.com/unimib.it/pasquero/publications?authuser=0)
 - [Hiroyuki Murakami @ NOAA GFDL](http://www.bamboodream.sakura.ne.jp/hiroblog/wp-content/uploads/2022/09/Curriculum_Vitae_Hiroyuki.Murakami.pdf)
 - [Lynne Talley @ UCSD](http://sam.ucsd.edu/talley_refereed_publications.html)
 - [Geoff Vallis @ Exeter](https://empslocal.ex.ac.uk/people/staff/gv219/papers/index.html)
