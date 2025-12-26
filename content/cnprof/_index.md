@@ -26,7 +26,7 @@ type: page
 - Tim Li @ University of Hawaiʻi <sub>[homepage](https://iprc.soest.hawaii.edu/users/li)</sub> <sub>google scholar</sub>
 - Zhengyu Liu @ Ohio State University <sub>[homepage](https://geography.osu.edu/people/liu.7022)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=B_OGuv0AAAAJ&hl=en)</sub>
 - Ping Chang @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/oceanography/contact/profiles/ping-chang.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=cIw1NiUAAAAJ&hl=en)</sub>
-- Zhiming Kuang @ Harvard University <sub>[homepage](https://eps.harvard.edu/people/zhiming-kuang)</sub> <sub>google scholar)</sub>
+- Zhiming Kuang @ Harvard University <sub>[homepage](https://eps.harvard.edu/people/zhiming-kuang)</sub> <sub>google scholar</sub>
 - Bo Qiu @ University of Hawaiʻi <sub>[homepage](http://www.soest.hawaii.edu/oceanography/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=SmNjHLoAAAAJ&hl=en)</sub>
 - Yi Deng @ Georgia Tech <sub>[homepage](https://eas.gatech.edu/people/deng-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Ff6qeesAAAAJ&hl=en)</sub>
 - Weiqing Han @ University of Colorado <sub>[homepage](https://atoc.colorado.edu/~whan)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=2ACehwUAAAAJ&hl=en)</sub>
