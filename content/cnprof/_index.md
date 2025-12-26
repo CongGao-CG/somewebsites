@@ -3,6 +3,7 @@ layout: page
 type: page
 ---
 
+- Fuqing Zhang @ Penn State University <sub>[homepage](https://adapt.psu.edu/ZHANG/index.php)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=RL0foHcAAAAJ&inst=10749622055976013885&hl=en)</sub>
 - Shuyi (Suzy) Chen @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/shuyi-chen)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LW9-XEYAAAAJ&hl=en)</sub>
 - Sen Chiao @ Howard University <sub>[homepage](https://profiles.howard.edu/sen-chiao)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LiDrBWwAAAAJ&hl=en)</sub>
 - Xiaohong Liu @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/atmos-science/contact/profiles/xiaohong-liu.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OrDCS68AAAAJ&hl=en)</sub>
