@@ -3,6 +3,7 @@ layout: page
 type: page
 ---
 
+- Weiqing Han @ University of Colorado <sub>[group page](https://atoc.colorado.edu/~whan/webpage/Research_Group/index.htm)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=2ACehwUAAAAJ&hl=en)</sub>
 - Fuqing Zhang @ Penn State University <sub>[homepage](https://adapt.psu.edu/ZHANG/index.php)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=RL0foHcAAAAJ&inst=10749622055976013885&hl=en)</sub>
 - Shuyi (Suzy) Chen @ University of Washington <sub>[homepage](https://atmos.uw.edu/faculty-and-research/core-faculty/shuyi-chen)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LW9-XEYAAAAJ&hl=en)</sub>
 - Sen Chiao @ Howard University <sub>[homepage](https://profiles.howard.edu/sen-chiao)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=LiDrBWwAAAAJ&hl=en)</sub>
@@ -29,4 +30,3 @@ type: page
 - Zhiming Kuang @ Harvard University <sub>[homepage](https://eps.harvard.edu/people/zhiming-kuang)</sub> <sub>google scholar</sub>
 - Bo Qiu @ University of Hawaiʻi <sub>[homepage](http://www.soest.hawaii.edu/oceanography/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=SmNjHLoAAAAJ&hl=en)</sub>
 - Yi Deng @ Georgia Tech <sub>[homepage](https://eas.gatech.edu/people/deng-yi)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Ff6qeesAAAAJ&hl=en)</sub>
-- Weiqing Han @ University of Colorado <sub>[homepage](https://atoc.colorado.edu/~whan)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=2ACehwUAAAAJ&hl=en)</sub>
