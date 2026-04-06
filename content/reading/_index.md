@@ -4,6 +4,7 @@ type: page
 ---
 
 - [Nature 8 Journals and 5 Subject](https://www.nature.com/search?journal=ncomms%2C+nclimate%2C+nature%2C+ngeo%2C+natrevearthenviron&article_type=research%2C+comments-and-opinion%2C+reviews&subject=climate-sciences%2C+environmental-sciences%2C+hydrology%2C+natural-hazards%2C+ocean-sciences&order=date_desc)
+- [Carbon Brief Science](https://www.carbonbrief.org/science/extreme-weather)
 - [Science Advances](https://advances.sciencemag.org/content/by/year/2025)
 - [Tropical-stroms archives](https://lists.tstorms.org/mailman/private/tropical-storms)
 - [Reading Weather and Climate blog](https://blogs.reading.ac.uk/weather-and-climate-at-reading)
