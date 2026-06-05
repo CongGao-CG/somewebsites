@@ -47,3 +47,11 @@
   border-color: #0f766e;
   text-decoration: none !important;
 }
+
+.scholar-note {
+  margin: 0 0 1rem;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1.4;
+}
