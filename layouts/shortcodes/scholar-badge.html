@@ -1,0 +1,6 @@
+{{- $citations := .Get "citations" -}}
+{{- $url := .Get "url" -}}
+<a class="scholar-badge" href="{{ $url }}" target="_blank" rel="noopener noreferrer" title="Open Google Scholar profile">
+  <span class="scholar-badge__label">Citations</span>
+  <span class="scholar-badge__count">{{ $citations }}</span>
+</a>
