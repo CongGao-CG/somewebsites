@@ -1,0 +1,8 @@
+{{- $url := .Get "url" -}}
+{{- $label := .Get "label" | default "Homepage" -}}
+<a class="homepage-badge" href="{{ $url }}" target="_blank" rel="noopener noreferrer" title="Open {{ $label }}">
+  <svg class="homepage-badge__icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8h5Z"/>
+  </svg>
+  <span>{{ $label }}</span>
+</a>
