@@ -119,6 +119,50 @@
   text-decoration: none !important;
 }
 
+@media (min-width: 48rem) {
+  body:has(.homepage-badge) .max-w-prose {
+    max-width: min(90vw, 80rem);
+  }
+
+  body:has(.homepage-badge) article.prose {
+    width: 100%;
+    max-width: none;
+  }
+
+  article.prose ul:has(> li > .homepage-badge) {
+    width: max-content;
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1.3rem;
+    list-style: none;
+  }
+
+  article.prose ul:has(> li > .homepage-badge) > li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    white-space: nowrap;
+  }
+
+  article.prose ul:has(> li > .homepage-badge) > li::before {
+    position: absolute;
+    left: -1.15rem;
+    width: 0.38rem;
+    height: 0.38rem;
+    border-radius: 999px;
+    background: #cbd5e1;
+    content: "";
+  }
+
+  article.prose ul:has(> li > .homepage-badge) .homepage-badge,
+  article.prose ul:has(> li > .homepage-badge) .scholar-profile-badge {
+    flex: 0 0 auto;
+    margin-left: 0;
+  }
+}
+
 .scholar-note {
   margin: 0 0 1rem;
   color: #64748b;
