@@ -1,0 +1,16 @@
+{{- $url := .Get "url" -}}
+{{- if $url -}}
+<a class="scholar-profile-badge" href="{{ $url }}" target="_blank" rel="noopener noreferrer" title="Open Google Scholar profile">
+  <svg class="scholar-profile-badge__icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 3 1 9l11 6 8-4.36V17h2V9L12 3Zm-7 8.18V15l7 4 7-4v-3.82L12 15l-7-3.82Z"/>
+  </svg>
+  <span>Google Scholar</span>
+</a>
+{{- else -}}
+<span class="scholar-profile-badge scholar-profile-badge--disabled" title="Google Scholar profile unavailable">
+  <svg class="scholar-profile-badge__icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 3 1 9l11 6 8-4.36V17h2V9L12 3Zm-7 8.18V15l7 4 7-4v-3.82L12 15l-7-3.82Z"/>
+  </svg>
+  <span>Google Scholar</span>
+</span>
+{{- end -}}
