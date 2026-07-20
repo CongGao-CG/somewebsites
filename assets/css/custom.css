@@ -119,6 +119,24 @@
   text-decoration: none !important;
 }
 
+.prof-link-badges {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.35rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.prof-link-badges .homepage-badge,
+.prof-link-badges .scholar-profile-badge {
+  position: static !important;
+  flex: 0 0 auto;
+  margin-left: 0;
+  transform: none !important;
+  vertical-align: baseline;
+}
+
 @media (min-width: 48rem) {
   body:has(.homepage-badge) .max-w-prose {
     max-width: min(90vw, 80rem);
@@ -129,37 +147,15 @@
     max-width: none;
   }
 
-  article.prose ul:has(> li > .homepage-badge) {
+  article.prose ul:has(.prof-link-badges) {
     width: max-content;
     max-width: none;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 1.3rem;
-    list-style: none;
   }
 
-  article.prose ul:has(> li > .homepage-badge) > li {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
+  article.prose ul:has(.prof-link-badges) > li {
     white-space: nowrap;
-  }
-
-  article.prose ul:has(> li > .homepage-badge) > li::before {
-    position: absolute;
-    left: -1.15rem;
-    width: 0.38rem;
-    height: 0.38rem;
-    border-radius: 999px;
-    background: #cbd5e1;
-    content: "";
-  }
-
-  article.prose ul:has(> li > .homepage-badge) .homepage-badge,
-  article.prose ul:has(> li > .homepage-badge) .scholar-profile-badge {
-    flex: 0 0 auto;
-    margin-left: 0;
   }
 }
 
