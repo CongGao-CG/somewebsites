@@ -19,7 +19,7 @@ type: page
 - Xiaohong Liu @ Texas A&M University <sub>[homepage](https://artsci.tamu.edu/atmos-science/contact/profiles/xiaohong-liu.html)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=OrDCS68AAAAJ&hl=en)</sub>
 - Zhengyu Liu @ Ohio State University <sub>[homepage](https://geography.osu.edu/people/liu.7022)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=B_OGuv0AAAAJ&hl=en)</sub>
 - Guo‑Yue Niu @ University of Arizona <sub>[homepage](https://has.arizona.edu/person/guo-yue-niu)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Vxr_xRwAAAAJ&hl=en)</sub>
-- Zhaoxia Pu @ University of Utah <sub>[homepage](https://www.inscc.utah.edu/~pu/)</sub>
+- Zhaoxia Pu @ University of Utah <sub>[homepage](https://www.inscc.utah.edu/~pu/)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=knkpGKMAAAAJ&hl=en&inst=10749622055976013885)</sub>
 - Bo Qiu @ University of Hawaiʻi <sub>[homepage](http://www.soest.hawaii.edu/oceanography/bo)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=SmNjHLoAAAAJ&hl=en)</sub>
 - Mingfang Ting @ Columbia University <sub>[homepage](https://lamont.columbia.edu/directory/mingfang-ting)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=VPhpWq0AAAAJ&hl=en)</sub>
 - Zhuo Wang @ University of Illinois <sub>[homepage](https://climas.illinois.edu/directory/profile/zhuowang)</sub> <sub>[google scholar](https://scholar.google.com/citations?user=Wn9LYk4AAAAJ&hl=en)</sub>
