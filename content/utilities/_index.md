@@ -2,6 +2,8 @@
 layout: page
 type: page
 ---
+
+{{< utilities-grid >}}
 - [PU network check](https://tigerspeed.princeton.edu)
 - [MyDella](https://mydella.princeton.edu/pun/sys/dashboard)
 - [MyAdroit](https://myadroit.princeton.edu/pun/sys/dashboard)
@@ -28,3 +30,4 @@ type: page
 - [Google advanced search](https://www.google.com/advanced_search)
 - [Google data search](https://datasetsearch.research.google.com)
 - [PU AI tools](https://oit.princeton.edu/generative-ai/ai-tools)
+{{< /utilities-grid >}}
