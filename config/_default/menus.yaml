@@ -32,8 +32,8 @@ main:
   - name: Utilities
     url: /utilities/
     weight: 11
-  - name: Lists
-    url: /lists/
+  - name: Ranking
+    url: /ranking/
     weight: 12
   - name: Galleries
     url: /galleries/
