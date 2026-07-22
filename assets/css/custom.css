@@ -51,9 +51,15 @@
 .researcher-row {
   display: inline-flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 0.35rem;
+  max-width: 100%;
   vertical-align: middle;
-  white-space: nowrap;
+  white-space: normal;
+}
+
+.researcher-row > a:first-child {
+  min-width: 0;
 }
 
 .researcher-row .scholar-badge {
@@ -154,6 +160,12 @@
 }
 
 @media (min-width: 48rem) {
+  .researcher-row {
+    flex-wrap: nowrap;
+    max-width: none;
+    white-space: nowrap;
+  }
+
   body:has(.homepage-badge) .max-w-prose {
     max-width: min(90vw, 80rem);
   }
