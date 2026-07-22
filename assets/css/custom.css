@@ -70,7 +70,8 @@
   vertical-align: baseline;
 }
 
-.ns-row {
+.ns-row,
+.opps-row {
   display: inline-block;
   max-width: 100%;
   white-space: normal;
@@ -172,21 +173,22 @@
     white-space: nowrap;
   }
 
-  .ns-row {
+  .ns-row,
+  .opps-row {
     max-width: none;
     white-space: nowrap;
   }
 
-  body:has(.ns-row) .max-w-prose {
+  body:has(.ns-row, .opps-row) .max-w-prose {
     max-width: min(90vw, 80rem);
   }
 
-  body:has(.ns-row) article.prose {
+  body:has(.ns-row, .opps-row) article.prose {
     width: 100%;
     max-width: none;
   }
 
-  article.prose ul:has(.ns-row) {
+  article.prose ul:has(.ns-row, .opps-row) {
     width: max-content;
     max-width: 100%;
     margin-right: auto;
