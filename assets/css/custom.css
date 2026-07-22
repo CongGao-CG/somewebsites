@@ -70,6 +70,12 @@
   vertical-align: baseline;
 }
 
+.ns-row {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+}
+
 .scholar-profile-badge {
   display: inline-flex;
   align-items: center;
@@ -164,6 +170,27 @@
     flex-wrap: nowrap;
     max-width: none;
     white-space: nowrap;
+  }
+
+  .ns-row {
+    max-width: none;
+    white-space: nowrap;
+  }
+
+  body:has(.ns-row) .max-w-prose {
+    max-width: min(90vw, 80rem);
+  }
+
+  body:has(.ns-row) article.prose {
+    width: 100%;
+    max-width: none;
+  }
+
+  article.prose ul:has(.ns-row) {
+    width: max-content;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   body:has(.homepage-badge) .max-w-prose {
