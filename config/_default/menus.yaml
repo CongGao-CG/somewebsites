@@ -26,8 +26,8 @@ main:
   - name: Books
     url: /books/
     weight: 9
-  - name: Jobs
-    url: /jobs/
+  - name: Opps
+    url: /opps/
     weight: 10
   - name: Utilities
     url: /utilities/
