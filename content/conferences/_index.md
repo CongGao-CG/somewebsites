@@ -3,11 +3,10 @@ layout: page
 type: page
 ---
 
-- [Ning group meeting](https://docs.google.com/spreadsheets/d/1STfDXaygllZNxp6kWNDNiiSPuAWUsoZjgmWVbowx9CY/edit?usp=sharing) 
-- [Michael group meeting](https://docs.google.com/spreadsheets/d/1eUk_cMY20G6tGAmV5KI_vjrq7skMKLj10goLlp0GjBY/edit?gid=1143428463#gid=1143428463)
-- [AMS Conference on Hurricanes and Tropical Meteorology (March 30–03, 2026 | SD)](https://www.ametsoc.org/ams/meetings-events/ams-meetings/37th-conference-on-hurricanes-and-tropical-meteorology)
-- [AGU annual meeting (December 15–19, 2025 | New Orleans)](https://www.agu.org/annual-meeting/present#overview)
-- [AMS annual meeting (January 25–29, 2026 | Houston)](https://ams.confex.com/ams/106ANNUAL/cfp.cgi)
-- [AOGS annual meeting](https://www.asiaoceania.org/aogs2025)
-- [AGU ocean sciences meeting](https://www.agu.org/ocean-sciences-meeting)
-- [EGU general assembly](https://www.egu25.eu)
+- [AMS Conference on Hurricanes and Tropical Meteorology (March 30–April 3, 2026 | San Diego, CA & Online)](https://www.ametsoc.org/ams/meetings-events/ams-meetings/37th-conference-on-hurricanes-and-tropical-meteorology)
+- [AOGS Annual Meeting (August 2–7, 2026 | Fukuoka, Japan)](https://www.asiaoceania.org/aogs2026)
+- [AGU Annual Meeting (December 7–11, 2026 | San Francisco, CA)](https://www.agu.org/annual-meeting)
+- [AMS Annual Meeting (January 10–14, 2027 | Denver, CO)](https://annual.ametsoc.org/2027)
+- [EGU General Assembly (April 4–9, 2027 | Vienna, Austria & Online)](https://www.egu27.eu)
+- [Symposium on Tropical Cyclone Risk (June 7–11, 2027 | Monte Verità, Ascona, Switzerland)](https://www.tcrisk.org)
+- [Ocean Sciences Meeting (February 27–March 3, 2028 | Vancouver, BC, Canada)](https://www.agu.org/ocean-sciences-meeting)
