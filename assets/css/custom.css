@@ -71,6 +71,7 @@
 }
 
 .ns-row,
+.conferences-row,
 .opps-row,
 .books-row,
 .codes-row,
@@ -245,6 +246,7 @@
   }
 
   .ns-row,
+  .conferences-row,
   .opps-row,
   .books-row,
   .codes-row,
@@ -255,16 +257,16 @@
     white-space: nowrap;
   }
 
-  body:has(.ns-row, .opps-row, .books-row, .codes-row, .cli-row, .galleries-row, .ranking-row) .max-w-prose {
+  body:has(.ns-row, .conferences-row, .opps-row, .books-row, .codes-row, .cli-row, .galleries-row, .ranking-row) .max-w-prose {
     max-width: min(90vw, 80rem);
   }
 
-  body:has(.ns-row, .opps-row, .books-row, .codes-row, .cli-row, .galleries-row, .ranking-row) article.prose {
+  body:has(.ns-row, .conferences-row, .opps-row, .books-row, .codes-row, .cli-row, .galleries-row, .ranking-row) article.prose {
     width: 100%;
     max-width: none;
   }
 
-  article.prose ul:has(.ns-row, .opps-row, .books-row, .codes-row, .cli-row, .galleries-row, .ranking-row) {
+  article.prose ul:has(.ns-row, .conferences-row, .opps-row, .books-row, .codes-row, .cli-row, .galleries-row, .ranking-row) {
     width: max-content;
     max-width: 100%;
     margin-right: auto;
