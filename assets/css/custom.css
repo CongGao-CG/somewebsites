@@ -301,3 +301,47 @@
   font-style: italic;
   line-height: 1.4;
 }
+
+article.prose ul:has(.opps-row) {
+  width: min(100%, 70rem);
+}
+
+article.prose ul:has(.opps-row) > li {
+  width: 100%;
+}
+
+.opps-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.opps-row > a {
+  min-width: 0;
+}
+
+.opps-last-click {
+  flex: 0 0 auto;
+  color: #64748b;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.dark .opps-last-click {
+  color: #94a3b8;
+}
+
+@media (max-width: 32rem) {
+  .opps-row {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .opps-last-click {
+    align-self: flex-end;
+  }
+}
