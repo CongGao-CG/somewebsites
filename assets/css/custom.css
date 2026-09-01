@@ -361,7 +361,7 @@ body:has(.ns-timeline) article.prose {
   position: relative;
   display: grid;
   gap: 1.5rem;
-  width: min(100%, 108rem);
+  width: min(100%, 56rem);
   margin: 2rem auto 0 !important;
   padding: 0 0 0.8rem !important;
   list-style: none !important;
@@ -371,7 +371,7 @@ body:has(.ns-timeline) article.prose {
   position: absolute;
   top: 0.75rem;
   bottom: 0.45rem;
-  left: 50%;
+  left: calc(100% - 5rem);
   width: 2px;
   background: var(--ns-timeline-line);
   content: "";
@@ -381,7 +381,7 @@ body:has(.ns-timeline) article.prose {
 .ns-timeline::after {
   position: absolute;
   bottom: -0.05rem;
-  left: 50%;
+  left: calc(100% - 5rem);
   width: 0;
   height: 0;
   border-right: 0.42rem solid transparent;
@@ -393,7 +393,7 @@ body:has(.ns-timeline) article.prose {
 
 .ns-timeline__item {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 3rem minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) 3rem 3.5rem;
   align-items: center;
   width: 100%;
   margin: 0 !important;
@@ -403,7 +403,7 @@ body:has(.ns-timeline) article.prose {
 .ns-timeline__paper {
   grid-column: 1;
   justify-self: end;
-  width: min(100%, 48rem);
+  width: 100%;
   padding: 0.85rem 1rem;
   border: 1px solid #d8e0e8;
   border-radius: 0.55rem;
@@ -479,12 +479,7 @@ body:has(.ns-timeline) article.prose {
   border-color: #18181b;
 }
 
-@media (min-width: 96rem) {
-  .ns-timeline__paper {
-    width: max-content;
-    max-width: 100%;
-  }
-
+@media (min-width: 64rem) {
   .ns-timeline__paper a {
     white-space: nowrap;
   }
