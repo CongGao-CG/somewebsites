@@ -380,15 +380,14 @@ body:has(.ns-timeline) article.prose {
 
 .ns-timeline::after {
   position: absolute;
-  top: -0.05rem;
+  top: 0.05rem;
   left: calc(100% - 5rem);
-  width: 0;
-  height: 0;
-  border-right: 0.42rem solid transparent;
-  border-bottom: 0.65rem solid var(--ns-timeline-accent);
-  border-left: 0.42rem solid transparent;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-top: 2px solid var(--ns-timeline-accent);
+  border-left: 2px solid var(--ns-timeline-accent);
   content: "";
-  transform: translateX(-50%);
+  transform: translateX(-50%) rotate(45deg);
 }
 
 .ns-timeline__item {
