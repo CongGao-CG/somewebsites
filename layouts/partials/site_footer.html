@@ -11,54 +11,71 @@
       }
     });
 
-    const oppsLinks = document.querySelectorAll(".opps-row > a");
     const clickTimeFormatter = new Intl.DateTimeFormat(undefined, {
       dateStyle: "medium",
       timeStyle: "short"
     });
 
-    oppsLinks.forEach(link => {
-      const storageKey = `opps-last-click:${link.href}`;
-      const lastClicked = document.createElement("time");
-      lastClicked.className = "opps-last-click";
-
-      const showClickTime = timestamp => {
-        if (timestamp === null) {
-          lastClicked.removeAttribute("datetime");
-          lastClicked.textContent = "Never clicked";
-          return;
-        }
-
-        const clickedAt = new Date(Number(timestamp));
-
-        if (Number.isNaN(clickedAt.getTime())) {
-          lastClicked.removeAttribute("datetime");
-          lastClicked.textContent = "Never clicked";
-          return;
-        }
-
-        lastClicked.dateTime = clickedAt.toISOString();
-        lastClicked.textContent = clickTimeFormatter.format(clickedAt);
-      };
-
-      try {
-        showClickTime(localStorage.getItem(storageKey));
-      } catch (error) {
-        showClickTime(null);
+    const trackedLinkGroups = [
+      {
+        selector: ".opps-row > a",
+        storagePrefix: "opps-last-click",
+        timeClass: "opps-last-click",
+        insertInsideLink: false
+      },
+      {
+        selector: ".reading-links a",
+        storagePrefix: "reading-last-click",
+        timeClass: "reading-last-click",
+        insertInsideLink: true
       }
+    ];
 
-      link.parentElement.appendChild(lastClicked);
+    trackedLinkGroups.forEach(group => {
+      document.querySelectorAll(group.selector).forEach(link => {
+        const storageKey = `${group.storagePrefix}:${link.href}`;
+        const lastClicked = document.createElement("time");
+        lastClicked.className = group.timeClass;
 
-      link.addEventListener("click", () => {
-        const timestamp = Date.now();
+        const showClickTime = timestamp => {
+          if (timestamp === null) {
+            lastClicked.removeAttribute("datetime");
+            lastClicked.textContent = "Never clicked";
+            return;
+          }
+
+          const clickedAt = new Date(Number(timestamp));
+
+          if (Number.isNaN(clickedAt.getTime())) {
+            lastClicked.removeAttribute("datetime");
+            lastClicked.textContent = "Never clicked";
+            return;
+          }
+
+          lastClicked.dateTime = clickedAt.toISOString();
+          lastClicked.textContent = clickTimeFormatter.format(clickedAt);
+        };
 
         try {
-          localStorage.setItem(storageKey, String(timestamp));
+          showClickTime(localStorage.getItem(storageKey));
         } catch (error) {
-          // Still update the current page when browser storage is unavailable.
+          showClickTime(null);
         }
 
-        showClickTime(timestamp);
+        const timestampContainer = group.insertInsideLink ? link : link.parentElement;
+        timestampContainer.appendChild(lastClicked);
+
+        link.addEventListener("click", () => {
+          const timestamp = Date.now();
+
+          try {
+            localStorage.setItem(storageKey, String(timestamp));
+          } catch (error) {
+            // Still update the current page when browser storage is unavailable.
+          }
+
+          showClickTime(timestamp);
+        });
       });
     });
   });

@@ -346,6 +346,43 @@ article.prose ul:has(.opps-row) > li {
   }
 }
 
+.reading-links a {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 0.75rem;
+}
+
+.reading-last-click {
+  justify-self: end;
+  color: #64748b;
+  font-size: 0.65rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.dark .reading-last-click {
+  color: #94a3b8;
+}
+
+@media (min-width: 48rem) {
+  .reading-links ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 75rem) {
+  .reading-links ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 32rem) {
+  .reading-links a {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.2rem;
+  }
+}
+
 body:has(.ns-timeline) .max-w-prose {
   max-width: min(96vw, 112rem);
 }
