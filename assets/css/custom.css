@@ -345,3 +345,160 @@ article.prose ul:has(.opps-row) > li {
     align-self: flex-end;
   }
 }
+
+body:has(.ns-timeline) .max-w-prose {
+  max-width: min(92vw, 76rem);
+}
+
+body:has(.ns-timeline) article.prose {
+  width: 100%;
+  max-width: none;
+}
+
+.ns-timeline {
+  --ns-timeline-line: #cbd5e1;
+  --ns-timeline-accent: #0f766e;
+  position: relative;
+  display: grid;
+  gap: 1.5rem;
+  width: 100%;
+  margin: 2rem auto 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.ns-timeline::before {
+  position: absolute;
+  top: 0.75rem;
+  bottom: 0.75rem;
+  left: 50%;
+  width: 2px;
+  background: var(--ns-timeline-line);
+  content: "";
+  transform: translateX(-50%);
+}
+
+.ns-timeline__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.75rem minmax(0, 1fr);
+  align-items: center;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ns-timeline__paper {
+  grid-column: 1;
+  justify-self: end;
+  width: min(100%, 31rem);
+  padding: 0.85rem 1rem;
+  border: 1px solid #d8e0e8;
+  border-radius: 0.55rem;
+  background: #f8fafc;
+  text-align: right;
+}
+
+.ns-timeline__paper a {
+  display: block;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none !important;
+}
+
+.ns-timeline__paper:hover,
+.ns-timeline__paper:focus-within {
+  border-color: var(--ns-timeline-accent);
+  background: #f0fdfa;
+}
+
+.ns-timeline__journal {
+  display: block;
+  margin-top: 0.28rem;
+  color: #64748b;
+  font-size: 0.76rem;
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.ns-timeline__marker {
+  z-index: 1;
+  grid-column: 2;
+  justify-self: center;
+  width: 0.85rem;
+  height: 0.85rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--ns-timeline-accent);
+  box-shadow: 0 0 0 2px var(--ns-timeline-accent);
+}
+
+.ns-timeline__year {
+  grid-column: 3;
+  justify-self: start;
+  color: var(--ns-timeline-accent);
+  font-size: 1.2rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.dark .ns-timeline {
+  --ns-timeline-line: #475569;
+  --ns-timeline-accent: #2dd4bf;
+}
+
+.dark .ns-timeline__paper {
+  border-color: #3f3f46;
+  background: #18181b;
+}
+
+.dark .ns-timeline__paper:hover,
+.dark .ns-timeline__paper:focus-within {
+  border-color: var(--ns-timeline-accent);
+  background: #134e4a;
+}
+
+.dark .ns-timeline__journal {
+  color: #94a3b8;
+}
+
+.dark .ns-timeline__marker {
+  border-color: #18181b;
+}
+
+@media (max-width: 42rem) {
+  body:has(.ns-timeline) .max-w-prose {
+    max-width: 92vw;
+  }
+
+  .ns-timeline {
+    gap: 1rem;
+  }
+
+  .ns-timeline::before {
+    left: 0.5rem;
+    transform: none;
+  }
+
+  .ns-timeline__item {
+    grid-template-columns: 1rem 3.9rem minmax(0, 1fr);
+    column-gap: 0.65rem;
+  }
+
+  .ns-timeline__marker {
+    grid-column: 1;
+  }
+
+  .ns-timeline__year {
+    grid-column: 2;
+    font-size: 0.95rem;
+  }
+
+  .ns-timeline__paper {
+    grid-column: 3;
+    justify-self: stretch;
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    text-align: left;
+  }
+}
