@@ -6,6 +6,14 @@ type: page
 <ol class="ns-timeline" aria-label="Nature and Science papers by year">
   <li class="ns-timeline__item">
     <div class="ns-timeline__paper">
+      <a href="https://www.nature.com/articles/s41586-026-10953-2" target="_blank" rel="noopener">Operational Tropical Cyclone Forecasting with AI</a>
+      <span class="ns-timeline__journal">Nature</span>
+    </div>
+    <span class="ns-timeline__marker" aria-hidden="true"></span>
+    <time class="ns-timeline__year" datetime="2026">2026</time>
+  </li>
+  <li class="ns-timeline__item">
+    <div class="ns-timeline__paper">
       <a href="https://www.nature.com/articles/s41586-023-06963-z" target="_blank" rel="noopener">Global population profile of tropical cyclone exposure from 2002 to 2019</a>
       <span class="ns-timeline__journal">Nature</span>
     </div>
