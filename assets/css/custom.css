@@ -323,15 +323,25 @@ article.prose ul:has(.opps-row) > li {
 }
 
 .opps-last-click {
+  display: inline-flex;
+  align-items: center;
   flex: 0 0 auto;
-  color: #64748b;
+  padding: 0.18rem 0.5rem;
+  border: 1px solid #99d5cd;
+  border-radius: 999px;
+  background: #f0fdfa;
+  color: #115e59;
   font-size: 0.75rem;
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
+  line-height: 1.4;
   white-space: nowrap;
 }
 
 .dark .opps-last-click {
-  color: #94a3b8;
+  border-color: #2b716a;
+  background: #134e4a;
+  color: #ccfbf1;
 }
 
 @media (max-width: 32rem) {
