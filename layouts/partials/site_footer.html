@@ -21,6 +21,7 @@
         selector: ".opps-row > a",
         storagePrefix: "opps-last-click",
         timeClass: "opps-last-click",
+        splitDateTime: true,
         insertInsideLink: false
       },
       {
@@ -37,23 +38,47 @@
         const lastClicked = document.createElement("time");
         lastClicked.className = group.timeClass;
 
+        const showBadge = (date, time) => {
+          const datePart = document.createElement("span");
+          datePart.className = "opps-last-click__date";
+          datePart.textContent = date;
+          const timePart = document.createElement("span");
+          timePart.className = "opps-last-click__time";
+          timePart.textContent = time;
+          lastClicked.replaceChildren(datePart, document.createTextNode(" "), timePart);
+        };
+
+        const showEmpty = () => {
+          lastClicked.removeAttribute("datetime");
+          if (group.splitDateTime) {
+            showBadge("Never clicked", "—");
+          } else {
+            lastClicked.textContent = "Never clicked";
+          }
+        };
+
         const showClickTime = timestamp => {
           if (timestamp === null) {
-            lastClicked.removeAttribute("datetime");
-            lastClicked.textContent = "Never clicked";
+            showEmpty();
             return;
           }
 
           const clickedAt = new Date(Number(timestamp));
 
           if (Number.isNaN(clickedAt.getTime())) {
-            lastClicked.removeAttribute("datetime");
-            lastClicked.textContent = "Never clicked";
+            showEmpty();
             return;
           }
 
           lastClicked.dateTime = clickedAt.toISOString();
-          lastClicked.textContent = clickTimeFormatter.format(clickedAt);
+          if (group.splitDateTime) {
+            showBadge(
+              clickedAt.toLocaleDateString(undefined, { dateStyle: "medium" }),
+              clickedAt.toLocaleTimeString(undefined, { timeStyle: "short" })
+            );
+          } else {
+            lastClicked.textContent = clickTimeFormatter.format(clickedAt);
+          }
         };
 
         try {

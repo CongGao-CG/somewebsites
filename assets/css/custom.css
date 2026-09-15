@@ -324,13 +324,12 @@ article.prose ul:has(.opps-row) > li {
 
 .opps-last-click {
   display: inline-flex;
-  align-items: center;
+  align-items: stretch;
   flex: 0 0 auto;
-  padding: 0.18rem 0.5rem;
-  border: 1px solid #99d5cd;
-  border-radius: 999px;
-  background: #f0fdfa;
-  color: #115e59;
+  overflow: hidden;
+  border: 1px solid #475569;
+  border-radius: 0;
+  color: #fff;
   font-size: 0.75rem;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
@@ -338,10 +337,17 @@ article.prose ul:has(.opps-row) > li {
   white-space: nowrap;
 }
 
-.dark .opps-last-click {
-  border-color: #2b716a;
-  background: #134e4a;
-  color: #ccfbf1;
+.opps-last-click__date,
+.opps-last-click__time {
+  padding: 0.18rem 0.5rem;
+}
+
+.opps-last-click__date {
+  background: #475569;
+}
+
+.opps-last-click__time {
+  background: #0f766e;
 }
 
 @media (max-width: 32rem) {
