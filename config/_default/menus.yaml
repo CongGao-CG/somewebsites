@@ -17,9 +17,6 @@ main:
   - name: Data
     url: /data/
     weight: 6
-  - name: Codes
-    url: /codes/
-    weight: 7
   - name: Conferences
     url: /conferences/
     weight: 8
