@@ -35,6 +35,3 @@ main:
   - name: Galleries
     url: /galleries/
     weight: 13
-  - name: CLI
-    url: /cli/
-    weight: 14
