@@ -1,0 +1,44 @@
+<p class="scholar-note">Citation refresh schedule: Google Scholar weekly · OpenAlex daily. Each source counts citations differently; last successful updates are shown below.</p>
+<ul class="researcher-list">
+  {{- range site.Data.researchers }}
+  {{- $researcher := . }}
+  <li>
+    <span class="researcher-row">
+      <a class="researcher-name" href="{{ .publication_url }}">{{ .name }}</a>
+      <span class="citation-badges">
+        {{- range slice "scholar" "openalex" }}
+          {{- $source := . }}
+          {{- $profile := index $researcher $source }}
+          {{- $label := cond (eq $source "scholar") "Google Scholar" "OpenAlex" }}
+          {{- $count := "—" }}
+          {{- $status := "Awaiting first update" }}
+          {{- if not $profile.id }}
+            {{- $status = "No verified profile" }}
+          {{- else if ne $profile.citations nil }}
+            {{- $count = lang.FormatNumberCustom 0 $profile.citations "- . ," }}
+          {{- end }}
+          {{- with $profile.updated_at }}
+            {{- $status = printf "Updated %s" (time.Format "Jan 2, 2006" .) }}
+          {{- end }}
+          {{- $description := printf "%s: %s citations on %s. %s." $researcher.name $count $label $status }}
+          {{- with $profile.note }}
+            {{- $description = printf "%s %s" $description . }}
+          {{- end }}
+          <span class="citation-source">
+            <a class="citation-badge citation-badge--{{ $source }}" href="{{ $profile.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $description }}" title="{{ $description }}">
+              <span class="citation-badge__label">{{ $label }}</span>
+              <span class="citation-badge__count">{{ $count }}{{ with $profile.note }}<sup aria-hidden="true">†</sup>{{ end }}</span>
+            </a>
+            {{- if $profile.updated_at }}
+              <time class="citation-updated" datetime="{{ $profile.updated_at }}">{{ $status }}</time>
+            {{- else }}
+              <span class="citation-updated">{{ $status }}</span>
+            {{- end }}
+          </span>
+        {{- end }}
+      </span>
+    </span>
+  </li>
+  {{- end }}
+</ul>
+<p class="scholar-note">† OpenAlex profiles for Hiroyuki Murakami and Gan Zhang include some unrelated publications. Their totals are shown as reported by OpenAlex.</p>

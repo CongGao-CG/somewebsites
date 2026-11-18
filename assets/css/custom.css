@@ -70,6 +70,86 @@
   vertical-align: baseline;
 }
 
+.researcher-list .researcher-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  white-space: normal;
+}
+
+.researcher-list .researcher-name {
+  flex: 1 1 22rem;
+}
+
+.researcher-list > li {
+  margin-block: 1rem;
+}
+
+.citation-badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 100%;
+}
+
+.citation-source {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  width: 11.5rem;
+}
+
+.citation-badge {
+  display: inline-flex;
+  align-items: stretch;
+  overflow: hidden;
+  border: 1px solid #9aa7b4;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+
+.citation-badge__label {
+  flex: 1;
+  padding: 0.15rem 0.4rem;
+  background: #eef2f6;
+  color: #334155;
+}
+
+.citation-badge__count {
+  min-width: 3.7rem;
+  padding: 0.15rem 0.4rem;
+  background: #2459a6;
+  color: #fff;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.citation-badge--openalex .citation-badge__count {
+  background: #0f766e;
+}
+
+.citation-badge:hover,
+.citation-badge:focus-visible {
+  border-color: currentColor;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+.citation-updated {
+  color: #64748b;
+  font-size: 0.65rem;
+  line-height: 1.4;
+}
+
+.dark .citation-updated,
+.dark .scholar-note {
+  color: #94a3b8;
+}
+
 .ns-row,
 .conferences-row,
 .opps-row,
@@ -239,10 +319,13 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .researcher-row {
-    flex-wrap: nowrap;
+  body:has(.researcher-list) .max-w-prose {
+    max-width: min(94vw, 80rem);
+  }
+
+  body:has(.researcher-list) article.prose {
+    width: 100%;
     max-width: none;
-    white-space: nowrap;
   }
 
   .ns-row,

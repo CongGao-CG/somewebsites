@@ -1,0 +1,67 @@
+name: Update researcher citations
+
+on:
+  schedule:
+    - cron: '17 8 * * 1'
+    - cron: '43 8 * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Citation source to refresh
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - scholar
+          - openalex
+
+permissions:
+  contents: write
+
+concurrency:
+  group: researcher-citations
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check updater
+        run: node --test tests/update-citations.test.mjs
+      - name: Fetch citation counts
+        id: refresh
+        continue-on-error: true
+        env:
+          CITATION_SOURCE: ${{ inputs.source }}
+          CITATION_SCHEDULE: ${{ github.event.schedule }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+        run: node scripts/update-citations.mjs
+      - name: Save successful updates
+        if: ${{ !cancelled() && steps.refresh.outcome != 'skipped' }}
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          if git diff --quiet -- data/researchers.json; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/researchers.json
+          git commit -m 'Update researcher citation counts'
+          git pull --rebase origin "$DEFAULT_BRANCH"
+          git push origin "HEAD:$DEFAULT_BRANCH"
+      - name: Report incomplete refresh
+        if: ${{ !cancelled() && steps.refresh.outcome == 'failure' }}
+        run: |
+          echo 'Some counts could not be refreshed. Successful updates were saved; previous counts remain for failed profiles.'
+          exit 1

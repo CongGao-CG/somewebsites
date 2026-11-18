@@ -1,0 +1,276 @@
+[
+  {
+    "id": "michael-oppenheimer",
+    "name": "Michael Oppenheimer @ Princeton",
+    "publication_url": "https://oppenheimer.scholar.princeton.edu/publications",
+    "scholar": {
+      "id": "yZ8k3zMAAAAJ",
+      "url": "https://scholar.google.com/citations?user=yZ8k3zMAAAAJ&hl=en",
+      "citations": 66914,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5082082741",
+      "url": "https://openalex.org/authors/A5082082741",
+      "citations": 31435,
+      "updated_at": "2026-11-18T14:39:19.544Z"
+    }
+  },
+  {
+    "id": "ning-lin",
+    "name": "Ning Lin @ Princeton",
+    "publication_url": "https://ninglin.princeton.edu/publications",
+    "scholar": {
+      "id": "lGZOP74AAAAJ",
+      "url": "https://scholar.google.com/citations?user=lGZOP74AAAAJ&hl=en",
+      "citations": 11139,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5069279910",
+      "url": "https://openalex.org/authors/A5069279910",
+      "citations": 11122,
+      "updated_at": "2026-11-18T14:39:19.620Z"
+    }
+  },
+  {
+    "id": "kerry-emanuel",
+    "name": "Kerry Emanuel @ MIT",
+    "publication_url": "https://emanuel.mit.edu/research-papers",
+    "scholar": {
+      "id": "Z6eI_ZYAAAAJ",
+      "url": "https://scholar.google.com/citations?user=Z6eI_ZYAAAAJ&hl=en",
+      "citations": 85465,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5111787253",
+      "url": "https://openalex.org/authors/A5111787253",
+      "citations": 67998,
+      "updated_at": "2026-11-18T14:39:19.696Z"
+    }
+  },
+  {
+    "id": "adam-sobel",
+    "name": "Adam Sobel @ Columbia",
+    "publication_url": "https://www.columbia.edu/~ahs129/pubs.html",
+    "scholar": {
+      "id": "sdL5XIoAAAAJ",
+      "url": "https://scholar.google.com/citations?user=sdL5XIoAAAAJ&hl=en",
+      "citations": 28184,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5036260925",
+      "url": "https://openalex.org/authors/A5036260925",
+      "citations": 24261,
+      "updated_at": "2026-11-18T14:39:19.772Z"
+    }
+  },
+  {
+    "id": "i-i-lin",
+    "name": "I-I Lin @ NTU",
+    "publication_url": "https://homepage.ntu.edu.tw/~iilin/publication.htm",
+    "scholar": {
+      "id": "mQ06OBEAAAAJ",
+      "url": "https://scholar.google.com/citations?user=mQ06OBEAAAAJ&hl=en",
+      "citations": 10453,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5031736665",
+      "url": "https://openalex.org/authors/A5031736665",
+      "citations": 7399,
+      "updated_at": "2026-11-18T14:39:21.098Z"
+    }
+  },
+  {
+    "id": "suzana-j-camargo",
+    "name": "Suzana J. Camargo @ Columbia",
+    "publication_url": "https://www.ldeo.columbia.edu/~suzana/pub_page.html",
+    "scholar": {
+      "id": "w8sSgzcAAAAJ",
+      "url": "https://scholar.google.com/citations?user=w8sSgzcAAAAJ&hl=en",
+      "citations": 24917,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5051119431",
+      "url": "https://openalex.org/authors/A5051119431",
+      "citations": 21313,
+      "updated_at": "2026-11-18T14:39:21.196Z"
+    }
+  },
+  {
+    "id": "shang-ping-xie",
+    "name": "Shang-Ping Xie @ UCSD",
+    "publication_url": "http://sxie.ucsd.edu/pub_list.html",
+    "scholar": {
+      "id": "vGEx6O0AAAAJ",
+      "url": "https://scholar.google.com/citations?user=vGEx6O0AAAAJ&hl=en",
+      "citations": 84263,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5027462848",
+      "url": "https://openalex.org/authors/A5027462848",
+      "citations": 60388,
+      "updated_at": "2026-11-18T14:39:21.301Z"
+    }
+  },
+  {
+    "id": "christina-m-patricola-dirosario",
+    "name": "Christina M Patricola-DiRosario @ IASTATE",
+    "publication_url": "https://faculty.sites.iastate.edu/cmp28/publications",
+    "scholar": {
+      "id": "GZwohvoAAAAJ",
+      "url": "https://scholar.google.com/citations?user=GZwohvoAAAAJ&hl=en",
+      "citations": 14356,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5091216329",
+      "url": "https://openalex.org/authors/A5091216329",
+      "citations": 5611,
+      "updated_at": "2026-11-18T14:39:21.560Z"
+    }
+  },
+  {
+    "id": "gabriel-vecchi",
+    "name": "Gabriel Vecchi @ Princeton",
+    "publication_url": "https://vecchi.princeton.edu/publications",
+    "scholar": {
+      "id": "BHqsBnsAAAAJ",
+      "url": "https://scholar.google.com/citations?user=BHqsBnsAAAAJ&hl=en&inst=10749622055976013885",
+      "citations": 58270,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5039373982",
+      "url": "https://openalex.org/authors/A5039373982",
+      "citations": 48109,
+      "updated_at": "2026-11-18T14:39:21.846Z"
+    }
+  },
+  {
+    "id": "claudia-pasquero",
+    "name": "Claudia Pasquero @ UNIMIB",
+    "publication_url": "https://sites.google.com/unimib.it/pasquero/publications?authuser=0",
+    "scholar": {
+      "id": "WjDFUtQAAAAJ",
+      "url": "https://scholar.google.com/citations?hl=en&user=WjDFUtQAAAAJ&inst=10749622055976013885",
+      "citations": 3379,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5068068925",
+      "url": "https://openalex.org/authors/A5068068925",
+      "citations": 3301,
+      "updated_at": "2026-11-18T14:39:22.679Z"
+    }
+  },
+  {
+    "id": "allison-wing",
+    "name": "Allison Wing @ FSU",
+    "publication_url": "https://myweb.fsu.edu/awing/pubs.html",
+    "scholar": {
+      "id": "IBZL3aQAAAAJ",
+      "url": "https://scholar.google.com/citations?user=IBZL3aQAAAAJ&hl=en",
+      "citations": 4445,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5015143608",
+      "url": "https://openalex.org/authors/A5015143608",
+      "citations": 4757,
+      "updated_at": "2026-11-18T14:39:22.770Z"
+    }
+  },
+  {
+    "id": "hiroyuki-murakami",
+    "name": "Hiroyuki Murakami @ NOAA GFDL",
+    "publication_url": "http://www.bamboodream.sakura.ne.jp/hiroblog/wp-content/uploads/2022/09/Curriculum_Vitae_Hiroyuki.Murakami.pdf",
+    "scholar": {
+      "id": "0jrKPcMAAAAJ",
+      "url": "https://scholar.google.com/citations?user=0jrKPcMAAAAJ&hl=en",
+      "citations": 13639,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5103206976",
+      "url": "https://openalex.org/authors/A5103206976",
+      "citations": 17450,
+      "updated_at": "2026-11-18T14:39:22.839Z",
+      "note": "This OpenAlex profile includes some unrelated publications; its total is shown as reported by OpenAlex."
+    }
+  },
+  {
+    "id": "gan-zhang",
+    "name": "Gan Zhang @ UIUC",
+    "publication_url": "https://climatezhang.web.illinois.edu/publications",
+    "scholar": {
+      "id": "33z7StUAAAAJ",
+      "url": "https://scholar.google.com/citations?user=33z7StUAAAAJ&hl=en",
+      "citations": 984,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5007632206",
+      "url": "https://openalex.org/authors/A5007632206",
+      "citations": 1156,
+      "updated_at": "2026-11-18T14:39:22.923Z",
+      "note": "This OpenAlex profile includes some unrelated publications; its total is shown as reported by OpenAlex."
+    }
+  },
+  {
+    "id": "lynne-talley",
+    "name": "Lynne Talley @ UCSD",
+    "publication_url": "http://sam.ucsd.edu/talley_refereed_publications.html",
+    "scholar": {
+      "id": "0d3hJBQAAAAJ",
+      "url": "https://scholar.google.com/citations?user=0d3hJBQAAAAJ&hl=en",
+      "citations": 51019,
+      "updated_at": "2026-06-05"
+    },
+    "openalex": {
+      "id": "A5024700925",
+      "url": "https://openalex.org/authors/A5024700925",
+      "citations": 29463,
+      "updated_at": "2026-11-18T14:39:23.000Z"
+    }
+  },
+  {
+    "id": "geoff-vallis",
+    "name": "Geoff Vallis @ Exeter",
+    "publication_url": "https://empslocal.ex.ac.uk/people/staff/gv219/papers/index.html",
+    "scholar": {
+      "id": null,
+      "url": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Geoff%20Vallis",
+      "citations": null,
+      "updated_at": null
+    },
+    "openalex": {
+      "id": "A5086846200",
+      "url": "https://openalex.org/authors/A5086846200",
+      "citations": 13672,
+      "updated_at": "2026-11-18T14:39:23.090Z"
+    }
+  },
+  {
+    "id": "william-m-gray",
+    "name": "Gray @ CSU",
+    "publication_url": "https://mountainscholar.org/browse/author?value=Gray,%20William%20M.,%20author&bbm.return=1",
+    "scholar": {
+      "id": null,
+      "url": "https://scholar.google.com/citations?view_op=search_authors&mauthors=William%20M.%20Gray",
+      "citations": null,
+      "updated_at": null
+    },
+    "openalex": {
+      "id": "A5103406719",
+      "url": "https://openalex.org/authors/A5103406719",
+      "citations": 11058,
+      "updated_at": "2026-11-18T14:39:23.160Z"
+    }
+  }
+]
